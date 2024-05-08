@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="pag.css">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juego</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="Bienvenido">Bienvenido al juego</h1>
+            <!-- <img id="fondo1" src="./imagenesjuego/fondo1.jfif" alt="imagen casa"> -->
+            <button id="playButton">¡Jugar!</button>
+            <div id="categories" style="display: none;">
+                <h2>Selecciona una categoría:</h2>
+                <ul>
+                    <li><button class="categoryButton" data-category="categoria ">
+                        <img class="dificultad" src="./imagenesjuego/carros.jpg" alt="carros">
+                        Carros Deportivos</button></li>
+                    <li><button class="categoryButton" data-category="categoria2">
+                    <img class="dificultad" src="./imagenesjuego/futbol.jpg" alt="futbol">             
+                    Jugadores Futbol</button></li>
+                    <li><button class="categoryButton" data-category="categoria3">
+                        <img class="dificultad" src="./imagenesjuego/salvaje.jpg" alt=" vida salvaje">
+                        Animales salvajes</button></li>
+                </ul>
+            </div>
+            <div id="difficulty" style="display: none;">
+                <h2><b>Selecciona una dificultad:</b></h2>
+                <ul>
+                    <li><button  class="difficultyButton" data-difficulty="facil">
+                        <img class="dificultad2" src="./imagenesjuego/fondo1.jfif" alt="imagen dificil">
+                        Fácil</button></li>
+                    <li><button class="difficultyButton" data-difficulty="medio">
+                        <img class="dificultad2" src="./imagenesjuego/fondo2.jfif" alt="imagen dificil">
+                        Medio</button></li>
+                    <li><button class="difficultyButton" data-difficulty="dificil">
+                    <img class="dificultad2" src="./imagenesjuego/dificil.jfif" alt="imagen dificil">
+                    Difícil</button></li>
+                </ul>
+            </div>
+            <div id="game" style="display: none;">
+                <img id="backgroundImg" src="./imagenesjuego/inicio juego.jpg" alt="Juego iniciado" style="display: block;">
+                <div id="keyboard">
+                    <!-- Se generará dinámicamente el teclado aquí -->
+                </div>
+            </div>
+        </div>
+    
+        <script src="juego.js"></script>
+    </body>
+    </html>
+    
+
+ 
+</body>
+
+</html>

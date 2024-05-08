@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-image: url('./imagenesjuego/fondo11.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    font-size: 24px;
+    color: aliceblue;
+}
+h2{
+    color: #0effd5;
+}
+.dificultad {
+        max-width: 50px; /* Ajusta el ancho máximo de la imagen */
+        max-height: 50px; /* Ajusta la altura máxima de la imagen */
+    }
+    .dificultad2 {
+        max-width: 90px; /* Ajusta el ancho máximo de la imagen */
+        max-height: 90px; /* Ajusta la altura máxima de la imagen */
+    }
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #9e0ff7;;
+    color: white;
+    border: none;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+#fondo1{
+background-image:cover;
+}
+#backgroundImg{
+    max-width: 50%; /* Ajusta el ancho máximo de la imagen */
+    max-height: 50%; /* Ajusta la altura máxima de la imagen */   
+}
+.categoryButton {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.categoryButton:hover {
+    background-color: #006080;
+}
+/* Estilos para el teclado */
+#keyboard {
+    margin-top: 20px;
+}
+#keyboard-container {
+    background-image: url('ruta/de/tu/imagen.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    padding: 20px; /* Añade un poco de espacio alrededor del teclado */
+}
+.key {
+    display: inline-block;
+    margin: 5px;
+    padding: 20px;
+    font-size: 40px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.key:hover {
+    background-color: #006080;
+}
